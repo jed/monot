@@ -1,0 +1,20 @@
+{
+  "name": "monot",
+  "version": "0.1.0",
+  "description": "Like [object Date], but unique.",
+  "main": "monot.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jed/monot.git"
+  },
+  "author": "Jed Schmidt <where@jed.is>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "d62724eeaac652c7eb1bf7e1bfab7edd332fbc2d",
+  "bugs": {
+    "url": "https://github.com/jed/monot/issues"
+  }
+}
