@@ -1,7 +1,7 @@
 var _new = require("./new")
 
 function monot(last) {
-  last = Number(last)
+  last = Number(last) || Date.now()
 
   function MonotonicDate() {
     if (!(this instanceof MonotonicDate)) {
@@ -30,7 +30,5 @@ function monot(last) {
 
   return MonotonicDate
 }
-
-monot.Date = monot(Date.now())
 
 module.exports = monot
