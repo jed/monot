@@ -5,7 +5,7 @@ monot
 
 monot creates [JavaScript dates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date), where each one is greater than the last (also known as _monotonically increasing_). These come in handy when uniqueness is more important than accuracy, such as for creating keys that need to be both unique and sortable.
 
-The API of the a monot date constructor is identical to JavaScript's built-in `Date`, allowing monot to be used as a drop-in replacement for `Date`.
+The API of a monot date constructor is identical to JavaScript's built-in `Date`, allowing monot to be used as a drop-in replacement for `Date`.
 
 Example
 -------

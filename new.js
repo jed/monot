@@ -5,7 +5,9 @@ module.exports = function() {
   var fn = cache[i]
 
   if (!fn) {
-    for (var list = []; i--;) list[i] = "$" + i
+    var list = []
+
+    while (i--) list[i] = "$" + i
 
     fn = Function(list, "return new this(" + list + ")")
 
