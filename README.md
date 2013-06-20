@@ -3,9 +3,9 @@ monot
 
 [![Build Status](https://travis-ci.org/jed/monot.png?branch=master)](https://travis-ci.org/jed/monot)
 
-monot creates [JavaScript dates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date), each one is greater than the last (also known as _monotonically increasing_).
+monot creates [JavaScript dates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date), where each one is greater than the last (also known as _monotonically increasing_).
 
-They come in handy when uniqueness is more important than accuracy, such as for creating keys that need to be both unique and sortable.
+These come in handy when uniqueness is more important than accuracy, such as for creating keys that need to be both unique and sortable.
 
 Example
 -------
