@@ -16,5 +16,12 @@
   "gitHead": "d62724eeaac652c7eb1bf7e1bfab7edd332fbc2d",
   "bugs": {
     "url": "https://github.com/jed/monot/issues"
-  }
+  },
+  "keywords": [
+    "date",
+    "monotonic",
+    "timestamp",
+    "unique",
+    "sort"
+  ]
 }
